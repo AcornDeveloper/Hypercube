@@ -1,0 +1,75 @@
+HYPERCUBE
+---------
+Hypercube is a 3D puzzle game of the Tetris genre, falling blocks which have to be positioned
+correctly in order to stop the cube from filling up and to gain points. Each of the eight
+levels has different facilities graded from easy to difficult.
+
+You start on level 1. Only when the number of blocks for that level has been used can you
+progress onto the next level. In order that you don't have to play through all the levels your
+progress is automatically saved to disc. If you do not wish to save then leave the write
+protect tag open on your disc.
+
+The functions available to you at the start are, rotate the hypercube and rotate the falling
+block. These rotate in steps of 90 degress clockwise each time you press the appropriate
+button/key. The rotate occurs at the level below your block so some `mixing` of the cube is
+possible. If you are too close to a side for rotating the falling block then it is refused.
+
+On further levels random height blocks growing from the floor appear which make the positioning
+of blocks harder. To compensate you can score extra points by letting your block fall on its
+colour at the bottom. You can also destroy areas of the hypercube by using the bomb option.
+You get a set number of `bombs` for a level. Detonating the bomb destroys your falling block
+and a random area around it. This can clear areas to help complete levels when the going gets
+tough. Extra bombs are awarded every 5000 points.
+
+To complete a layer you have to position a certain number of blocks then that layer is wiped
+out. This information is given in the status panel and increases by five for every completed
+layer up to a maximum of 256 small cubes which is a full layer.
+
+The high score table and the jump to level variable are saved to disc. If you do not want
+then either remove the disc after loading or write protect it.
+
+KEY TABLE
+---------
+F1    - Play game
+F2    - Jump level
+F3    - Pause
+F4    - Release
+F5    - Internal speaker on/off
+F6    - Volume up
+F7    - Volume down
+F8    - Keyboard/mouse
+F9    - Mouse sensitivity up
+F10   - Mouse sensitivity down
+F12   - Restart
+SPACE - Explode falling block
+
+MOUSE CONTROL              KEYBOARD CONTROL
+-------------              ----------------
+Select - Rotate block      RETURN    Rotate block
+Menu   - Drop block        " /       Move block forward/back
+Adjust - Rotate hypercube  Z X       Move block left/right
+                           SHIFT     Drop block
+Mouse  - Position block    H         Rotate hypercube
+
+FUNCTION TABLE
+--------------
+FUNCTION       LEVEL   1   2   3   4   5   6   7   8
+----------------------------------------------------
+Rotate hyper cube      *   *   *   *   *   *   -   -
+Random height blocks   -   -   *   *   *   *   *   *
+Rotate block           *   *   *   *   *   *   *   -
+Mix layers             -   -   -   -   *   *   *   *
+Target scoring         -   -   *   *   *   *   *   *
+
+Key   * indicates function available
+      - indicates function unavailable
+
+SCORING
+-------
+For each block dropped into the cube that lands on the ground
+ = NUMBER OF SMALL CUBES IN BLOCK * LEVEL points.
+ 
+For each cube touching the same colour SQUARE * LEVEL points, center starts at 10 and
+decreases by 1 outwards.
+
+For each layer eliminated LEVEL * 10 points.

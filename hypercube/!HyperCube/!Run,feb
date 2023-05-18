@@ -1,0 +1,19 @@
+WIMPSLOT -min 720K -max 720K
+SET Disc1$Dir <Obey$Dir>
+ECHO <22><141>
+ECHO <23><1><0><0><0><0><0><0><0><0>
+RMENSURE G13a       1.0 *RMLOAD <Obey$dir>.G13a
+RMENSURE Utilities  1.0 *RMLOAD <Obey$dir>.Utilities
+RMENSURE Appear     1.0 *RMLOAD <Obey$dir>.Samples.Appear
+RMENSURE Sides      1.0 *RMLOAD <Obey$dir>.Samples.Sides
+RMENSURE Foghorn    1.0 *RMLOAD <Obey$dir>.Samples.Foghorn
+RMENSURE Miaow      1.0 *RMLOAD <Obey$dir>.Samples.Miaow
+RMENSURE Finish     1.0 *RMLOAD <Obey$dir>.Samples.Finish
+RMENSURE Doggit     1.0 *RMLOAD <Obey$dir>.Samples.Doggit
+RMENSURE Complete   1.0 *RMLOAD <Obey$dir>.Samples.Complete
+RMENSURE Layer      1.0 *RMLOAD <Obey$dir>.Samples.Layer
+RMENSURE Rotate     1.0 *RMLOAD <Obey$dir>.Samples.Rotate
+RMENSURE Explosion  1.0 *RMLOAD <Obey$dir>.Samples.Explosion
+RMENSURE Qpiano     1.0 *RMLOAD <Obey$dir>.Samples.Qpiano
+RMENSURE CubeSounds 1.0 *RMLOAD <Obey$dir>.Samples.CubeSounds
+<Obey$dir>.Cube1
